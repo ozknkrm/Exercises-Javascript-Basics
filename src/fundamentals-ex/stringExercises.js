@@ -1,12 +1,12 @@
 export function returnHello()
 {
-
+    return 'Hello'
 }
 
 export function returnAString()
 {
     /* Completa la function */
-    
+    return 'Hello World'
 }
 
 export function concatenateStrings()
@@ -14,7 +14,7 @@ export function concatenateStrings()
     /* Completa la function */
     const firstWord = 'I';
     const secondWord = 'Love';
-    
+    return firstWord + " " + secondWord + " " + 'JS';
 }
 
 export function giveOneLetter()
