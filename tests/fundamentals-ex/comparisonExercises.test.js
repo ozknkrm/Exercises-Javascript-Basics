@@ -1,16 +1,22 @@
-
+import { isJane, compareNumbers, } from "../../src/fundamentals-ex/comparisonExercises";
 describe('Comparison Exercises', () => {
-    test.skip('using == should be equal to Jane', () => {
+    test('using == should be equal to Jane', () => {
         /* Completa el test y completa la function isJane */
-        const name = 'Jane';
-
+        // given
+        //when
+        const result = isJane();
+        //then
         expect(result).toEqual('Jane');
     });
 
-    test.skip('using === should return 10', () => {
+    test('using === should return 10', () => {
         /* Completa el test y completa la function compareNumbers */
+        //given
         let number1 = '10';
         let number2 = '10';
+        //when 
+        const result = compareNumbers();
+        //then
         expect(result).toEqual(10);
     });
 
